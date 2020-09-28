@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutodeskDBModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="AutodeskUsers">
+      <EntityTypeMapping TypeName="AutodeskDBModel.AutodeskUser">
+        <MappingFragment StoreEntitySet="AutodeskUsers">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="userPassword" ColumnName="userPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
